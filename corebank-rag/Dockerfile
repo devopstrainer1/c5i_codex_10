@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1
+# syntax=docker/dockerfile:1 
 # ---- build stage: compile TypeScript, then throw the toolchain away ----
 FROM node:22-slim AS build
 WORKDIR /app
