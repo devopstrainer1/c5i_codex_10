@@ -1,6 +1,6 @@
 # Coverage vs. mutation lab (CoreBank transferService)
 
-    npm install
+    npm install 
     TEST_SUITE=theatre npx vitest run --coverage     # 100% coverage
     TEST_SUITE=real    npx vitest run --coverage     # also 100% coverage
     TEST_SUITE=theatre npx stryker run               # mutation score ~4.8%
